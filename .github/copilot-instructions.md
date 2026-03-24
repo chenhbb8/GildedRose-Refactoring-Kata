@@ -69,3 +69,5 @@ This repository contains implementations of the Gilded Rose Refactoring Kata in 
 - Prefer Strategy Pattern when refactoring item behavior.
 - Run Python tests after each change.
 - Add or update tests in `python/tests/test_gilded_rose.py`.
+
+##

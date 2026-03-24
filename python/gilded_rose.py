@@ -60,11 +60,7 @@ class GildedRose(object):
             "Conjured Mana Cake": ConjuredStrategy()
         }
 
-    def get_strategy(self, item_name):
-        """Retrieve the strategy for a given item name."""
-        return self.strategies.get(item_name, DefaultStrategy())
-
     def update_quality(self):
         for item in self.items:
-            strategy = self.get_strategy(item.name)
+            strategy = self.strategies.get(item.name, GeneralItemStrategy())
             strategy.update(item)

@@ -45,3 +45,5 @@ Refactor the `GildedRose` class in the Python implementation to use the Strategy
 ## Future Enhancements
 - Consider adding type annotations to improve code clarity and maintainability.
 - Explore additional design patterns for other parts of the codebase if needed.
+
+##
